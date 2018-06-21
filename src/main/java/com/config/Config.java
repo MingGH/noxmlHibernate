@@ -14,7 +14,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.core.env.Environment;
-import org.springframework.orm.hibernate3.HibernateTransactionManager;
+import org.springframework.orm.hibernate3.HibernateTransactionManager;//这里应该用的是spring-hibernate4的包，但是我在maven仓库中没有找到，07就停止更新了，奇怪
 import org.springframework.orm.hibernate3.LocalSessionFactoryBean;
 
 import java.util.Properties;

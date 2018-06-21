@@ -1,0 +1,3 @@
+"Spring_MVC_Init_Annotation"文件夹中是一个大神写的零配置整合，但是没有使用maven搭建项目
+尝试过整合，暂未解决
+SQL文件夹中是MYSQL数据库的结构以及数据
